@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#toDoList {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#toDoList input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.todo-label {
+    margin-left: 10px;
+}
+
+.dot-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2px;
+    display: inline-block;
+}
+
+.delete-icon {
+    display: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.edit-icon{
+    
+    color: green;
+    cursor: pointer;
+    margin-left: 6px;
+}
+#clearCompleted {
+    width: 50%; 
+    max-width: 200px;/* Set a maximum width for larger screens */
+    background-color: #f0f0f0;
+    color: black;
+    margin: 10px auto;
+    display: block; 
+}
+
